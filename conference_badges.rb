@@ -5,9 +5,9 @@ def badge_maker(speaker)
       return "Hello, my name is #{speaker}."
 end
 
-def batch_badge_creator(speakers)
+def batch_badge_creator(speaker)
   name_arr = []
-  speakers.each do |name|
+  speaker.each do |name|
     name_arr << "Hello, my name is #{name}."
   end
   return name_arr
@@ -21,4 +21,5 @@ def assign_rooms(speaker)
   return room_arr
 end
 
+def printer
 
