@@ -23,5 +23,6 @@ end
 
 def printer(speaker)
   return batch_badge_creator(speaker)
-  return 
+  return  assign_rooms(speaker)
+end
 
