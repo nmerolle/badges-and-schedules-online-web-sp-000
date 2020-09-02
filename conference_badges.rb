@@ -22,7 +22,9 @@ def assign_rooms(speaker)
 end
 
 def printer(speaker)
-  return name_arr
-  return  room_arr
+ name_arr = []
+ room_arr = []
+ speaker.each do |name|
+   name_arr << 
 end
 
