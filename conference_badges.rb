@@ -25,6 +25,11 @@ def printer(speaker)
  name_arr = []
  room_arr = []
  speaker.each do |name|
-   name_arr << 
+   name_arr << batch_badge_creator(name)
+ speaker.each do |name|
+   room_arr << assign_rooms(name)
+ end
+ return name_arr
+ return room_arr
 end
 
