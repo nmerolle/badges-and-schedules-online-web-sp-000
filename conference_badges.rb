@@ -18,6 +18,7 @@ def assign_rooms(speaker)
   speaker.each.with_index(1) do |name, index|
    room_arr = "Hello, #{name}! You'll be assigned to room #{index}!"
   end
+  return room_arr
 end
 
 
