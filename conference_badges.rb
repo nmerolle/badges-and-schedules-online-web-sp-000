@@ -22,15 +22,11 @@ def assign_rooms(speaker)
 end
 
 def printer(speaker)
- name_arr = []
- room_arr = []
- speaker.each do |name|
-   name_arr << batch_badge_creator(name)
- end
- return name_arr
- speaker.each do |name|
-   room_arr << assign_rooms(name)
- end
- return room_arr
+  batch_badge_creator(speaker).each do |name|
+    puts name
+  end 
+  assign_rooms(speaker).each do |name|
+    puts name 
+  end
 end
 
